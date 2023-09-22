@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/regular.min.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/solid.min.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/v4-shims.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
 
 <body>
@@ -121,8 +123,8 @@
                 </p>
                 <div class="about-buttons">
                     <a href="#email-me" class="btn-contact"><i class="fas fa-envelope"></i> Contact Me</a>
-                    <a href="assets/resume/Resume-Firmansyah-Mukti-Wijaya.pdf" class="btn-download" download><i
-                            class="fas fa-cloud-download-alt"></i> Download Resume</a>
+                    <a href="#" class="btn-download" id="download-button"><i class="fas fa-cloud-download-alt"></i>
+                        Download Resume</a>
                 </div>
             </div>
             <div class="about-image">
@@ -615,8 +617,11 @@
                     <img src="assets/img/portofolio/portofolio1.jpeg" alt="Portfolio 1" class="img-fluid">
                     <div class="portfolio-details">
                         <h4>Advanced AWS Cloud Solution for PT. ABC News Media WordPress</h4>
-                        <p>Associated with Amazon Web Services (AWS)</p>
-                        <p>Jun 2023 - Aug 2023</p>
+                        <div class="project-info">
+                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> Associated with Amazon Web
+                                Services (AWS)</p>
+                            <p class="project-duration"><i class="far fa-calendar-alt"></i> Jun 2023 - Aug 2023</p>
+                        </div>
                         <div class="portfolio-rating">
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
@@ -624,7 +629,7 @@
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
                         </div>
-                        <a href="#" class="portfolio-link">View Portfolio</a>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i> View Portfolio</a>
                     </div>
                 </div>
                 <!-- Portofolio Item 2 -->
@@ -632,8 +637,12 @@
                     <img src="assets/img/portofolio/portofolio2.jpeg" alt="Portfolio 2" class="img-fluid">
                     <div class="portfolio-details">
                         <h4>VisionSlice - Image Processing (Segmentation)</h4>
-                        <p>Associated with Universitas Nusantara PGRI Kediri</p>
-                        <p>Aug 2022 - Aug 2023</p>
+                        <div class="project-info">
+                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> Associated with
+                                Universitas Nusantara PGRI
+                                Kediri</p>
+                            <p class="project-duration"><i class="far fa-calendar-alt"></i> Aug 2022 - Aug 2023</p>
+                        </div>
                         <div class="portfolio-rating">
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
@@ -641,16 +650,20 @@
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
                         </div>
-                        <a href="#" class="portfolio-link">Show project</a>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i> Show project</a>
                     </div>
                 </div>
+
                 <!-- Portofolio Item 3 -->
                 <div class="portfolio-item">
                     <img src="assets/img/portofolio/portofolio3.jpeg" alt="Portfolio 3" class="img-fluid">
                     <div class="portfolio-details">
                         <h4>PharmaTrend - Predicting Medicine Stock using K-Means and Trend Moment</h4>
-                        <p>Jan 2023 - Jul 2023</p>
-                        <p>Associated with Ikimukti</p>
+                        <div class="project-info">
+                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> Associated with Ikimukti
+                            </p>
+                            <p class="project-duration"><i class="far fa-calendar-alt"></i> Jan 2023 - Jul 2023</p>
+                        </div>
                         <div class="portfolio-rating">
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
@@ -658,16 +671,22 @@
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
                         </div>
-                        <a href="#" class="portfolio-link">GitHub - ikimukti/pharmatrend</a>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i> GitHub -
+                            ikimukti/pharmatrend</a>
                     </div>
                 </div>
+
                 <!-- Portofolio Item 4 -->
                 <div class="portfolio-item">
                     <img src="assets/img/portofolio/portofolio4.jpeg" alt="Portfolio 4" class="img-fluid">
                     <div class="portfolio-details">
                         <h4>Bulu Makmur - Trademark branding</h4>
-                        <p>Jul 2022 - Dec 2022</p>
-                        <p>Associated with Universitas Nusantara PGRI Kediri</p>
+                        <div class="project-info">
+                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> Associated with
+                                Universitas Nusantara PGRI
+                                Kediri</p>
+                            <p class="project-duration"><i class="far fa-calendar-alt"></i> Jul 2022 - Dec 2022</p>
+                        </div>
                         <div class="portfolio-rating">
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
@@ -675,16 +694,20 @@
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
                         </div>
-                        <a href="#" class="portfolio-link">Show project</a>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i> Show project</a>
                     </div>
                 </div>
+
                 <!-- Portofolio Item 5 -->
                 <div class="portfolio-item">
                     <img src="assets/img/portofolio/portofolio5.jpeg" alt="Portfolio 5" class="img-fluid">
                     <div class="portfolio-details">
                         <h4>Gym Training Club - Capstone Project</h4>
-                        <p>Apr 2022 - Jun 2022</p>
-                        <p>Associated with Alterra Academy</p>
+                        <div class="project-info">
+                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> Associated with Alterra
+                                Academy</p>
+                            <p class="project-duration"><i class="far fa-calendar-alt"></i> Apr 2022 - Jun 2022</p>
+                        </div>
                         <div class="portfolio-rating">
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
@@ -692,16 +715,20 @@
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
                         </div>
-                        <a href="#" class="portfolio-link">Show project</a>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i> Show project</a>
                     </div>
                 </div>
+
                 <!-- Portofolio Item 6 -->
                 <div class="portfolio-item">
                     <img src="assets/img/portofolio/portofolio6.jpeg" alt="Portfolio 6" class="img-fluid">
                     <div class="portfolio-details">
                         <h4>Arsip Kita - Letter Filing Information System</h4>
-                        <p>Mar 2022 - Apr 2022</p>
-                        <p>Associated with SMK Negeri 1 Kediri</p>
+                        <div class="project-info">
+                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> Associated with SMK Negeri
+                                1 Kediri</p>
+                            <p class="project-duration"><i class="far fa-calendar-alt"></i> Mar 2022 - Apr 2022</p>
+                        </div>
                         <div class="portfolio-rating">
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
@@ -709,16 +736,21 @@
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
                         </div>
-                        <a href="#" class="portfolio-link">GitHub - ikimukti/arsip-kita</a>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i> GitHub -
+                            ikimukti/arsip-kita</a>
                     </div>
                 </div>
+
                 <!-- Portofolio Item 7 -->
                 <div class="portfolio-item">
                     <img src="assets/img/portofolio/portofolio7.jpeg" alt="Portfolio 7" class="img-fluid">
                     <div class="portfolio-details">
                         <h4>Dashboard Mari Sehat - Capstone Project</h4>
-                        <p>Oct 2021 - Dec 2021</p>
-                        <p>Associated with Microsoft</p>
+                        <div class="project-info">
+                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> Associated with Microsoft
+                            </p>
+                            <p class="project-duration"><i class="far fa-calendar-alt"></i> Oct 2021 - Dec 2021</p>
+                        </div>
                         <div class="portfolio-rating">
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
@@ -726,16 +758,21 @@
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
                         </div>
-                        <a href="#" class="portfolio-link">Capstone Presentation.pdf</a>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i> Capstone
+                            Presentation.pdf</a>
                     </div>
                 </div>
+
                 <!-- Portofolio Item 8 -->
                 <div class="portfolio-item">
                     <img src="assets/img/portofolio/portofolio8.jpeg" alt="Portfolio 8" class="img-fluid">
                     <div class="portfolio-details">
                         <h4>Arduino and RFID-Based Attendance System</h4>
-                        <p>Jan 2019 - Jun 2019</p>
-                        <p>Associated with SMK Negeri 1 Kediri</p>
+                        <div class="project-info">
+                            <p class="project-location"><i class="fas fa-map-marker-alt"></i> Associated with SMK Negeri
+                                1 Kediri</p>
+                            <p class="project-duration"><i class="far fa-calendar-alt"></i> Jan 2019 - Jun 2019</p>
+                        </div>
                         <div class="portfolio-rating">
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
@@ -743,7 +780,8 @@
                             <span class="star">&#9733;</span>
                             <span class="star">&#9733;</span>
                         </div>
-                        <a href="#" class="portfolio-link">Contact us to learn more</a>
+                        <a href="#" class="portfolio-link"><i class="fas fa-external-link-alt"></i> Contact us to learn
+                            more</a>
                     </div>
                 </div>
             </div>
@@ -756,336 +794,503 @@
                 <div class="achievements-content">
                     <h3><i class="fas fa-trophy"></i> Licenses & Certifications</h3>
                     <div class="achievement-grid">
-                        <!-- Achievement Item 1 -->
-                        <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogleDigitalGarage.jpg"
-                                alt="Google Digital Garage Certificate" class="img-fluid achievement-logo">
-                            <h4>The Fundamentals of Digital Marketing - Google Digital Garage</h4>
-                            <p>Issued Aug 2021</p>
-                            <p>Credential ID A5S GVJ 3RC</p>
-                        </div>
-
-                        <!-- Achievement Item 2 -->
-                        <div class="achievement-item">
-                            <img src="assets/img/cert/LogoMicrosoft.jpg" alt="Microsoft Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Microsoft Certified: Azure Data Fundamental - Microsoft</h4>
-                            <p>Issued Nov 2021</p>
-                            <p>Credential ID 810b95ca-5c2b-4c7f-bfb0-7cf3ee479a9e</p>
-                        </div>
-
                         <!-- Achievement Item 3 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoMicrosoft.jpg" alt="Microsoft Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Microsoft Certified: Azure AI Fundamentals - Microsoft</h4>
-                            <p>Issued Jan 2022</p>
-                            <p>Credential ID ceb27ea4-0bfa-46e7-b5d5-b4564b7f2dd4</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoMicrosoft.jpg" alt="Microsoft Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Microsoft Certified: Azure AI Fundamentals - Microsoft</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jan 2022
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID ceb27ea4-0bfa-46e7-b5d5-b4564b7f2dd4
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 4 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoMicrosoft.jpg" alt="Microsoft Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Microsoft Certified: Power Platform Fundamentals - Microsoft</h4>
-                            <p>Issued Jan 2022</p>
-                            <p>Credential ID 43720ab1-efdb-4241-b9be-2594e8a09a7d</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoMicrosoft.jpg" alt="Microsoft Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Microsoft Certified: Power Platform Fundamentals - Microsoft</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jan 2022
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID 43720ab1-efdb-4241-b9be-2594e8a09a7d
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 5 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>IT Support Google Specialization - Google</h4>
-                            <p>Issued Aug 2022</p>
-                            <p>Credential ID YAUEQBT7TRED</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>IT Support Google Specialization - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Aug 2022
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID YAUEQBT7TRED
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 6 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoAWS.png" alt="AWS Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>AWS Academy Graduate - AWS Academy Cloud Foundations - Amazon Web Services (AWS)</h4>
-                            <p>Issued Feb 2023 – Expires Apr 2023</p>
-                            <p>Credential ID d7684974-451b-43f6-b973-9ac95d712682</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoAWS.png" alt="AWS Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>AWS Academy Graduate - AWS Academy Cloud Foundations - Amazon Web Services (AWS)
+                                </h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Feb 2023 – Expires Apr 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID d7684974-451b-43f6-b973-9ac95d712682
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 7 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoAWS.png" alt="AWS Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>AWS Academy Graduate - AWS Academy Cloud Architecting - Amazon Web Services (AWS)</h4>
-                            <p>Issued Mar 2023 – Expires May 2033</p>
-                            <p>Credential ID 9166cd65-7237-478e-bbd9-698d4db98fe9</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoAWS.png" alt="AWS Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>AWS Academy Graduate - AWS Academy Cloud Architecting - Amazon Web Services (AWS)
+                                </h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Mar 2023 – Expires May 2033
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID 9166cd65-7237-478e-bbd9-698d4db98fe9
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 8 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoAWS.png" alt="AWS Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>AWS Certified Cloud Practitioner - Amazon Web Services (AWS)</h4>
-                            <p>Issued May 2023 – Expires May 2026</p>
-                            <p>Credential ID c9b73da6-e0c8-4ed7-a282-c210240c0f30</p>
-                        </div>
-                        <!-- Achievement Item 9 -->
-                        <div class="achievement-item">
-                            <img src="assets/img/cert/LogoDicoding.jpeg" alt="Dicoding Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Belajar Jaringan Komputer untuk Pemula - Dicoding Indonesia</h4>
-                            <p>Issued May 2023 – Expires May 2026</p>
-                            <p>Credential ID 6RPNW1834P2M</p>
-                        </div>
-
-                        <!-- Achievement Item 10 -->
-                        <div class="achievement-item">
-                            <img src="assets/img/cert/LogoDicoding.jpeg" alt="Dicoding Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Belajar Dasar-Dasar DevOps - Dicoding Indonesia</h4>
-                            <p>Issued May 2023 – Expires May 2026</p>
-                            <p>Credential ID RVZKOR61QPD5</p>
-                        </div>
-
-                        <!-- Achievement Item 11 -->
-                        <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Dasar-Dasar Dukungan Teknis - Google</h4>
-                            <p>Issued Aug 2022</p>
-                            <p>Credential ID F8UQENHARY9V</p>
-                        </div>
-
-                        <!-- Achievement Item 12 -->
-                        <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Keamanan IT: Pertahanan terhadap Kejahatan Digital - Google</h4>
-                            <p>Issued Aug 2022</p>
-                            <p>Credential ID 9E5LDH9UFDVD</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoAWS.png" alt="AWS Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>AWS Certified Cloud Practitioner - Amazon Web Services (AWS)</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued May 2023 – Expires May 2026
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID c9b73da6-e0c8-4ed7-a282-c210240c0f30
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 9 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoDicoding.jpeg" alt="Dicoding Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Belajar Jaringan Komputer untuk Pemula - Dicoding Indonesia</h4>
-                            <p>Issued May 2023 – Expires May 2026</p>
-                            <p>Credential ID 6RPNW1834P2M</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoDicoding.jpeg" alt="Dicoding Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Belajar Jaringan Komputer untuk Pemula - Dicoding Indonesia</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued May 2023 – Expires May 2026
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID 6RPNW1834P2M
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 10 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoDicoding.jpeg" alt="Dicoding Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Belajar Dasar-Dasar DevOps - Dicoding Indonesia</h4>
-                            <p>Issued May 2023 – Expires May 2026</p>
-                            <p>Credential ID RVZKOR61QPD5</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoDicoding.jpeg" alt="Dicoding Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Belajar Dasar-Dasar DevOps - Dicoding Indonesia</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued May 2023 – Expires May 2026
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID RVZKOR61QPD5
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
-
                         <!-- Achievement Item 11 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Dasar-Dasar Dukungan Teknis - Google</h4>
-                            <p>Issued Aug 2022</p>
-                            <p>Credential ID F8UQENHARY9V</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Dasar-Dasar Dukungan Teknis - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Aug 2022
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID F8UQENHARY9V
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 12 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Keamanan IT: Pertahanan terhadap Kejahatan Digital - Google</h4>
-                            <p>Issued Aug 2022</p>
-                            <p>Credential ID 9E5LDH9UFDVD</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Keamanan IT: Pertahanan terhadap Kejahatan Digital - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Aug 2022
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID 9E5LDH9UFDVD
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
+
                         <!-- Achievement Item 13 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Dasar-Dasar Dukungan Teknis - Google</h4>
-                            <p>Issued Jul 2022</p>
-                            <p>Credential ID 7G33XMSSB84M</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Dasar-Dasar Dukungan Teknis - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jul 2022
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID 7G33XMSSB84M
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 14 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Seluk Beluk Jaringan Komputer - Google</h4>
-                            <p>Issued Aug 2022</p>
-                            <p>Credential ID MS5KM253XMDL</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Seluk Beluk Jaringan Komputer - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Aug 2022
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID MS5KM253XMDL
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 15 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Sistem Operasi dan Anda: Menjadi Pengguna yang Berdaya - Google</h4>
-                            <p>Issued Aug 2022</p>
-                            <p>Credential ID TVV65CJGGFHD</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Sistem Operasi dan Anda: Menjadi Pengguna yang Berdaya - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Aug 2022
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID TVV65CJGGFHD
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 16 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoDicoding.jpeg" alt="Dicoding Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Cloud Practitioner Essentials (Belajar Dasar AWS Cloud) - Dicoding Indonesia</h4>
-                            <p>Issued May 2023 – Expires May 2026</p>
-                            <p>Credential ID EYX46VVM6PDL</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoDicoding.jpeg" alt="Dicoding Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Cloud Practitioner Essentials (Belajar Dasar AWS Cloud) - Dicoding Indonesia</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued May 2023 – Expires May 2026
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID EYX46VVM6PDL
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 17 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoDicoding.jpeg" alt="Dicoding Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Belajar Dasar Pemrograman JavaScript - Dicoding Indonesia</h4>
-                            <p>Issued May 2023 – Expires May 2026</p>
-                            <p>Credential ID EYX46VG56PDL</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoDicoding.jpeg" alt="Dicoding Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Belajar Dasar Pemrograman JavaScript - Dicoding Indonesia</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued May 2023 – Expires May 2026
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID EYX46VG56PDL
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 18 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoDicoding.jpeg" alt="Dicoding Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Belajar Membuat Aplikasi Back-End untuk Pemula - Dicoding Indonesia</h4>
-                            <p>Issued Jun 2023 – Expires Jun 2026</p>
-                            <p>Credential ID 0LZ09RDRNZ65</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoDicoding.jpeg" alt="Dicoding Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Belajar Membuat Aplikasi Back-End untuk Pemula - Dicoding Indonesia</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jun 2023 – Expires Jun 2026
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID 0LZ09RDRNZ65
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 19 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoMicrosoft.jpg" alt="Microsoft Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Microsoft 365 Certified: Fundamentals - Microsoft</h4>
-                            <p>Issued Jun 2023</p>
-                            <p>Credential ID 962f9831-1493-4104-a7f7-018a4e9eb6c6</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoMicrosoft.jpg" alt="Microsoft Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Microsoft 365 Certified: Fundamentals - Microsoft</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jun 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID 962f9831-1493-4104-a7f7-018a4e9eb6c6
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 20 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoMicrosoft.jpg" alt="Microsoft Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Microsoft Certified: Dynamics 365 Fundamentals (CRM) - Microsoft</h4>
-                            <p>Issued Jun 2023</p>
-                            <p>Credential ID 88ee2d56-3aed-4e74-9566-ea04b183bc1b</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoMicrosoft.jpg" alt="Microsoft Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Microsoft Certified: Dynamics 365 Fundamentals (CRM) - Microsoft</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jun 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID 88ee2d56-3aed-4e74-9566-ea04b183bc1b
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
-
                         <!-- Achievement Item 21 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoMicrosoft.jpg" alt="Microsoft Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Microsoft Certified: Dynamics 365 Fundamentals (ERP) - Microsoft</h4>
-                            <p>Issued Jun 2023</p>
-                            <p>Credential ID 2f9b840e-5ab7-4d18-93f6-c9ecd6154767</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoMicrosoft.jpg" alt="Microsoft Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Microsoft Certified: Dynamics 365 Fundamentals (ERP) - Microsoft</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jun 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID 2f9b840e-5ab7-4d18-93f6-c9ecd6154767
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 22 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoMicrosoft.jpg" alt="Microsoft Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Microsoft Certified: Azure Fundamentals - Microsoft</h4>
-                            <p>Issued Jun 2023</p>
-                            <p>Credential ID e2449db3-7db7-4a97-a054-e0929f9144e8</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoMicrosoft.jpg" alt="Microsoft Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Microsoft Certified: Azure Fundamentals - Microsoft</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jun 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID e2449db3-7db7-4a97-a054-e0929f9144e8
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 23 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Foundations of Cybersecurity - Google</h4>
-                            <p>Issued Jun 2023</p>
-                            <p>Credential ID C3UHW8FQWGTR</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Foundations of Cybersecurity - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jun 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID C3UHW8FQWGTR
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 24 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Tools of the Trade: Linux and SQL - Google</h4>
-                            <p>Issued Jul 2023</p>
-                            <p>Credential ID 2UPKCQ4JHNNZ</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Tools of the Trade: Linux and SQL - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jul 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID 2UPKCQ4JHNNZ
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 25 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Automate Cybersecurity Tasks with Python - Google</h4>
-                            <p>Issued Jul 2023</p>
-                            <p>Credential ID BKUG9WA2Q35D</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Automate Cybersecurity Tasks with Python - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jul 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID BKUG9WA2Q35D
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 26 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Sound the Alarm: Detection and Response - Google</h4>
-                            <p>Issued Jul 2023</p>
-                            <p>Credential ID WEWT4LQQ2YZS</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Sound the Alarm: Detection and Response - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jul 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID WEWT4LQQ2YZS
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 27 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Connect and Protect: Networks and Network Security - Google</h4>
-                            <p>Issued Jul 2023</p>
-                            <p>Credential ID WZ6F8KMULVHS</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Connect and Protect: Networks and Network Security - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jul 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID WZ6F8KMULVHS
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 28 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Play It Safe: Manage Security Risks - Google</h4>
-                            <p>Issued Jul 2023</p>
-                            <p>Credential ID LBZ2CNKE36NF</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Play It Safe: Manage Security Risks - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jul 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID LBZ2CNKE36NF
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 29 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Put It to Work: Prepare for Cybersecurity Jobs - Google</h4>
-                            <p>Issued Jul 2023</p>
-                            <p>Credential ID YUSB6SN6TLVM</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Put It to Work: Prepare for Cybersecurity Jobs - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jul 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID YUSB6SN6TLVM
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 30 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Assets, Threats, and Vulnerabilities - Google</h4>
-                            <p>Issued Jul 2023</p>
-                            <p>Credential ID 4NZUQG8QFXCT</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Assets, Threats, and Vulnerabilities - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jul 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID 4NZUQG8QFXCT
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 31 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Google Cybersecurity - Google</h4>
-                            <p>Issued Jul 2023</p>
-                            <p>Credential ID 2HXQNQ9REX2X</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoGoogle.png" alt="Google Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Google Cybersecurity - Google</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Jul 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID 2HXQNQ9REX2X
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 32 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoAWS.png" alt="AWS Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>AWS Certified Solutions Architect – Associate - Amazon Web Services (AWS)</h4>
-                            <p>Issued Aug 2023 – Expires Aug 2026</p>
-                            <p>Credential ID 35657a14-39d2-47cd-aba3-9af7929bdec0</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoAWS.png" alt="AWS Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>AWS Certified Solutions Architect – Associate - Amazon Web Services (AWS)</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Aug 2023 – Expires Aug 2026
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID 35657a14-39d2-47cd-aba3-9af7929bdec0
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
 
                         <!-- Achievement Item 33 -->
                         <div class="achievement-item">
-                            <img src="assets/img/cert/LogoMeta.jpg" alt="Meta Certificate"
-                                class="img-fluid achievement-logo">
-                            <h4>Meta Database Engineer - Meta</h4>
-                            <p>Issued Sep 2023</p>
-                            <p>Credential ID VYQXHJFCV4SA</p>
+                            <a href="#" class="achievement-link">
+                                <img src="assets/img/cert/LogoMeta.jpg" alt="Meta Certificate"
+                                    class="img-fluid achievement-logo">
+                                <h4>Meta Database Engineer - Meta</h4>
+                                <p class="achievement-info">
+                                    <span class="achievement-icon"><i class="far fa-calendar-alt fa-lg"></i></span>
+                                    Issued Sep 2023
+                                    <span class="achievement-icon"><i class="fas fa-id-badge fa-lg"></i></span>
+                                    Credential ID VYQXHJFCV4SA
+                                </p>
+                                <i class="fas fa-external-link-alt"></i> <!-- Tambahkan ikon untuk tautan -->
+                            </a>
                         </div>
+
+
                     </div>
                 </div>
             </div>

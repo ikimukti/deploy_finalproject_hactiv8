@@ -1,298 +1,309 @@
 /* Reset CSS untuk menghilangkan margin dan padding default */
-html, body, div, h1, h2, h3, h4, h5, h6, p, ul, li, form {
-    margin: 0;
-    padding: 0;
+html,
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+form {
+  margin: 0;
+  padding: 0;
 }
 
 /* CSS umum */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
-    color: #333;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
 }
 
 /* Container */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 /* Sections */
 section {
-    padding: 40px 0;
+  padding: 40px 0;
 }
 
 /* Header and banner */
 .banner {
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 100px 0;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
 }
 
 .banner img {
-    width: 200px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
 }
 
 .banner h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 10px;
 }
 
 .banner h2 {
-    font-size: 18px;
-    font-weight: normal;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 /* User info section */
 .user-info {
-    text-align: center;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .user-info h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 
 .user-info h2 {
-    font-size: 18px;
-    font-weight: normal;
-    margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 20px;
 }
 
 /* Social media section */
 .social-media {
-    text-align: center;
+  text-align: center;
 }
 
 .social-media ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .social-media ul li {
-    display: inline-block;
-    margin: 10px;
+  display: inline-block;
+  margin: 10px;
 }
 
 .social-icon {
-    font-size: 24px;
-    color: #333;
-    text-decoration: none;
-    transition: transform 0.2s ease-in-out;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+  transition: transform 0.2s ease-in-out;
 }
 
 .social-icon:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 /* Contact section */
 .contact {
-    background-color: #fff;
-    padding: 30px;
-    margin-top: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .contact-title {
-    font-size: 36px;
-    margin-bottom: 20px;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .contact h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .contact-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-item {
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .contact-item i {
-    font-size: 24px;
-    margin-right: 10px;
-    color: #007bff;
+  font-size: 24px;
+  margin-right: 10px;
+  color: #007bff;
 }
 
 .contact-item a {
-    font-size: 18px;
-    color: #333;
-    text-decoration: none;
-    transition: color 0.3s;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 .contact-item a:hover {
-    color: #007bff;
+  color: #007bff;
 }
 
 /* About section */
 .about {
-    background-color: #fff;
-    padding: 30px;
-    margin-top: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-image: url('assets/img/profile.jpeg');
-    background-size: cover;
-    background-position: center;
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("assets/img/profile.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
 .about-content {
-    flex: 1; /* Mengisi semua ruang yang tersedia */
-    text-align: left;
-    padding-right: 20px; /* Jarak antara teks dan gambar */
+  flex: 1; /* Mengisi semua ruang yang tersedia */
+  text-align: left;
+  padding-right: 20px; /* Jarak antara teks dan gambar */
 }
 
 .about-content h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .about-content p {
-    font-size: 16px;
-    text-align: left;
-    line-height: 1.6; /* Jarak antar baris */
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.6; /* Jarak antar baris */
 }
 
 .about-image {
-    width: auto; /* Lebar gambar disesuaikan dengan ukuran gambar */
-    border-radius: 50%;
-    max-width: 100%;
-    flex: 0 0 40%; /* Tetapkan lebar gambar agar tidak mengisi semua ruang */
+  width: auto; /* Lebar gambar disesuaikan dengan ukuran gambar */
+  border-radius: 50%;
+  max-width: 100%;
+  flex: 0 0 40%; /* Tetapkan lebar gambar agar tidak mengisi semua ruang */
 }
 
 /* Tombol Contact Me dan Download Resume */
 .about-buttons {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .btn-contact,
 .btn-download {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-right: 10px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
 .btn-contact:hover,
 .btn-download:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 /* Icon di dalam tombol */
 .btn-contact i,
 .btn-download i {
-    margin-right: 5px; /* Jarak antara ikon dan teks */
+  margin-right: 5px; /* Jarak antara ikon dan teks */
 }
-
 
 /* CSS untuk bagian Experience */
 .experience {
-    background-color: #fff;
-    padding: 30px;
-    margin-top: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    color: #000;
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #000;
 }
 
 .section-title {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center;
-    padding-left: 26px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-left: 26px;
 }
 
 .experience-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .experience-item {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 .experience-timeline {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
 }
 
 .experience-circle {
-    width: 16px;
-    height: 16px;
-    background-color: #007bff;
-    border-radius: 50%;
-    z-index: 1;
-    position: relative;
-    top: 0;
-    transform: translateX(-50%);
+  width: 16px;
+  height: 16px;
+  background-color: #007bff;
+  border-radius: 50%;
+  z-index: 1;
+  position: relative;
+  top: 0;
+  transform: translateX(-50%);
 }
 
 .experience-line {
-    width: 2px;
-    height: auto;
-    left: -7px;
-    min-height: 100px;
-    position: relative;
-    flex-grow: 1;
-    background-color: #007bff;
+  width: 2px;
+  height: auto;
+  left: -7px;
+  min-height: 100px;
+  position: relative;
+  flex-grow: 1;
+  background-color: #007bff;
 }
 
 .experience-details {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .experience-job {
-    font-size: 18px;
-    margin-bottom: 5px;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .experience-company {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .experience-time {
-    font-style: italic;
-    font-size: 14px;
-    color: #777;
-    margin-bottom: 10px;
+  font-style: italic;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
 }
 
 .experience-desc {
-    font-size: 16px;
-    line-height: 1.6;
-    margin: 5px 0;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 5px 0;
 }
 
 /* Tambahkan ini ke dalam CSS Anda */
@@ -308,7 +319,7 @@ section {
 
 /* Gaya tambahan untuk tombol "Read More" */
 .read-more-button {
-  background-color: #007BFF; /* Warna latar belakang tombol */
+  background-color: #007bff; /* Warna latar belakang tombol */
   color: #fff; /* Warna teks tombol */
   border: none;
   padding: 10px 20px;
@@ -326,504 +337,572 @@ section {
   margin-right: 5px; /* Jarak antara ikon dan teks */
 }
 
-
 /* CSS untuk bagian Education */
 .education {
-    background-color: #fff;
-    padding: 30px;
-    margin-top: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    color: #000;
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #000;
 }
 
 .education-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .education-row {
-    display: flex;
-    flex-wrap: wrap; /* Agar item bungkus baris saat ukuran layar kecil */
-    justify-content: center; /* Mengatur item pendidikan menjadi tengah pada layar desktop */
+  display: flex;
+  flex-wrap: wrap; /* Agar item bungkus baris saat ukuran layar kecil */
+  justify-content: center; /* Mengatur item pendidikan menjadi tengah pada layar desktop */
 }
 
 .education-item {
-    flex-basis: calc(50% - 20px); /* Dua pendidikan dalam satu baris dengan ruang di antaranya pada layar desktop */
-    display: flex;
-    align-items: flex-start;
-    margin: 10px; /* Tambahkan margin atas dan bawah */
-    padding: 20px;
-    border-radius: 5px;
-    box-sizing: border-box; /* Menyertakan padding dalam perhitungan lebar */
+  flex-basis: calc(
+    50% - 20px
+  ); /* Dua pendidikan dalam satu baris dengan ruang di antaranya pada layar desktop */
+  display: flex;
+  align-items: flex-start;
+  margin: 10px; /* Tambahkan margin atas dan bawah */
+  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box; /* Menyertakan padding dalam perhitungan lebar */
 }
 
 .education-details {
-    flex-grow: 1;
-    position: relative;
+  flex-grow: 1;
+  position: relative;
 }
 
 .education-logo {
-    max-height: 50px; /* Tinggi maksimum logo */
+  max-height: 50px; /* Tinggi maksimum logo */
 }
 
 .education-school {
-    font-size: 18px;
-    margin-bottom: 5px;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .education-time {
-    font-style: italic;
-    font-size: 14px;
-    color: #777;
-    margin-bottom: 10px;
+  font-style: italic;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
 }
 
 .education-major {
-    font-size: 16px;
-    margin: 5px 0;
+  font-size: 16px;
+  margin: 5px 0;
 }
 
 /* CSS untuk selang-seling warna background */
 .education-item:nth-child(odd) {
-    background-color: #f8f8f8;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .education-item:nth-child(even) {
-    background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* CSS untuk layar kecil (misalnya, smartphone) */
 @media (max-width: 768px) {
-    .education-item {
-        flex-basis: calc(50% - 20px); /* Dua pendidikan dalam satu baris dengan ruang di antaranya pada layar kecil */
-    }
+  .education-item {
+    flex-basis: calc(
+      50% - 20px
+    ); /* Dua pendidikan dalam satu baris dengan ruang di antaranya pada layar kecil */
+  }
 }
 
 /* CSS untuk bagian Skill */
 .skill {
-    background-color: #fff;
-    padding: 30px;
-    margin-top: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    color: #000;
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #000;
 }
 
 .skill h4 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 .skill-row {
-    display: flex;
-    justify-content: center; /* Mengatur elemen di tengah */
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center; /* Mengatur elemen di tengah */
+  flex-wrap: wrap;
 }
 
 .skill-col {
-    flex-basis: calc(33.33% - 20px); /* Tiga kolom dalam satu baris dengan ruang di antaranya */
-    margin: 10px;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #f8f8f8;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  flex-basis: calc(
+    33.33% - 20px
+  ); /* Tiga kolom dalam satu baris dengan ruang di antaranya */
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .skill-content {
-    text-align: left; /* Mengatur teks keterampilan ke kiri */
+  text-align: left; /* Mengatur teks keterampilan ke kiri */
 }
 
 .skill-content ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .skill-content ul li {
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #555;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
 }
 
 .skill-icon {
-    font-size: 32px;
-    color: #007bff;
-    margin-right: 10px; /* Tambahkan margin kanan antara ikona dan teks keterampilan */
-    vertical-align: middle; /* Menyelaraskan ikona ke tengah teks */
+  font-size: 32px;
+  color: #007bff;
+  margin-right: 10px; /* Tambahkan margin kanan antara ikona dan teks keterampilan */
+  vertical-align: middle; /* Menyelaraskan ikona ke tengah teks */
 }
 
 .skill-icon:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 /* CSS untuk bagian Interest */
 .interest {
-    background-color: #fff;
-    padding: 30px;
-    margin-top: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    color: #000;
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #000;
 }
 
 .interest h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 .interest-content ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* Mengatur elemen ke tengah pada layar besar */
-    flex-wrap: wrap; /* Agar item bungkus baris saat ukuran layar kecil */
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Mengatur elemen ke tengah pada layar besar */
+  flex-wrap: wrap; /* Agar item bungkus baris saat ukuran layar kecil */
 }
 
 .interest-content ul li {
-    font-size: 18px;
-    margin: 10px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s ease-in-out;
+  font-size: 18px;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease-in-out;
 }
 
 .interest-content ul li:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
+  background-color: #0056b3;
+  transform: scale(1.05);
 }
 
 .interest-icon {
-    font-size: 24px;
-    margin-right: 10px;
-    vertical-align: middle;
+  font-size: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 .portfolio {
-    background-color: #fff;
-    padding: 30px;
-    margin-top: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    color: #000;
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #000;
 }
 
 .portfolio h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .portfolio-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .portfolio-item {
-    flex-basis: calc(33.33% - 20px);
-    margin-bottom: 20px;
-    padding: 0;
-    border-radius: 5px;
-    box-sizing: border-box;
-    text-align: left;
-    background-color: #f8f8f8;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  padding: 0;
+  border-radius: 5px;
+  box-sizing: border-box;
+  text-align: left;
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .portfolio-item img {
-    max-width: 100%;
-    height: 250px;
-    border-radius: 5px 5px 0 0;
-    object-fit: cover;
-    object-position: top;
+  max-width: 100%;
+  height: 250px;
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
+  object-position: top;
 }
 
 .portfolio-details {
-    flex-grow: 1;
-    padding: 20px;
+  flex-grow: 1;
+  padding: 20px;
 }
 
 .portfolio-details h4 {
-    font-size: 18px;
-    margin-bottom: 5px;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .portfolio-details p {
-    font-size: 16px;
-    margin-bottom: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .portfolio-rating {
-    font-size: 18px;
-    margin-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
 }
 
 .star {
-    color: #FFD700;
+  color: #ffd700;
 }
 
 .portfolio-link {
-    display: inline-block;
-    font-size: 16px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 0 0 5px 5px;
-    transition: background-color 0.3s;
-    margin-top: auto;
-    text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 0 0 5px 5px;
+  transition: background-color 0.3s;
+  margin-top: auto;
+  text-align: center;
 }
 
 .portfolio-link:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
+}
+
+.portfolio-item:hover img {
+  transform: scale(
+    1.1
+  ); /* Mengubah ukuran gambar menjadi 110% saat mouse di atasnya */
+  transition: transform 0.3s ease; /* Animasi perubahan ukuran dengan durasi 0.3 detik */
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-location,
+.project-duration {
+  font-size: 14px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.project-location {
+  color: #007bff; /* Ganti warna teks lokasi sesuai preferensi Anda */
+  font-weight: bold; /* Membuat teks lokasi menjadi bold */
+  font-size: 12px;
+}
+
+.project-duration {
+  color: #555; /* Ganti warna teks durasi sesuai preferensi Anda */
 }
 
 /* CSS untuk responsive design pada layar kecil */
 @media (max-width: 768px) {
-    .skill {
-        padding: 20px;
-    }
+  .skill {
+    padding: 20px;
+  }
 
-    .skill h4 {
-        font-size: 20px;
-    }
+  .skill h4 {
+    font-size: 20px;
+  }
 
-    .skill-content h3 {
-        font-size: 16px;
-    }
+  .skill-content h3 {
+    font-size: 16px;
+  }
 
-    .skill-content li {
-        font-size: 14px;
-    }
+  .skill-content li {
+    font-size: 14px;
+  }
 
-    .skill-icon {
-        font-size: 14px;
-    }
+  .skill-icon {
+    font-size: 14px;
+  }
 }
 
 /* CSS untuk section achievements */
 .achievements {
-    background-color: #fff;
-    padding: 30px;
-    margin-top: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    color: #000;
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #000;
 }
 
 .achievements-content {
-    text-align: center;
+  text-align: center;
 }
 
 .achievements h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .achievement-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 /* CSS untuk achievement item */
 .achievement-item {
-    flex-basis: calc(20% - 5px); /* 3 sertifikat per baris di desktop */
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    text-align: center;
+  flex-basis: calc(20% - 5px); /* 3 sertifikat per baris di desktop */
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
 }
 
 .achievement-logo {
-    max-height: 60px;
+  max-height: 60px;
+}
+
+/* Ikon "Issued" dan "Credential ID" */
+.achievement-icon {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #007bff; /* Warna biru seperti tautan */
+}
+
+/* Info "Issued" dan "Credential ID" */
+.achievement-info {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Tautan ke sertifikat */
+.achievement-link {
+  color: #007bff; /* Warna biru untuk tautan */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Efek perubahan warna saat hover */
+}
+
+.achievement-link:hover {
+  color: #0056b3; /* Warna biru yang lebih gelap saat hover */
+}
+
+/* Ikon tautan eksternal */
+.achievement-link i {
+  margin-left: 5px;
+  font-size: 14px;
 }
 
 /* Media query untuk tampilan seluler */
 @media (max-width: 768px) {
-    .achievement-item {
-        flex-basis: 100%; /* Satu sertifikat per baris di seluler */
-    }
+  .achievement-item {
+    flex-basis: 100%; /* Satu sertifikat per baris di seluler */
+  }
 }
 
 /* CSS untuk section email me */
 .email-me {
-    background-color: #fff;
-    padding: 30px;
-    margin-top: 20px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    color: #000;
+  background-color: #fff;
+  padding: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #000;
 }
 
 .email-me-content {
-    text-align: center;
+  text-align: center;
 }
 
 .email-me h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
 .email-me p {
-    font-size: 16px;
-    margin-bottom: 20px;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
 .form-group {
-    margin-bottom: 20px;
-    text-align: left;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 .form-group label {
-    display: block;
-    font-size: 18px;
-    margin-bottom: 5px;
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .form-group input[type="text"],
 .form-group input[type="email"],
 .form-group textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 .form-group textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 button[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button[type="submit"]:hover {
-    background-color: #0056b3;
+  background-color: #0056b3;
 }
 
 /* Responsive design for small screens */
 @media (max-width: 768px) {
-    .container {
-        padding: 10px;
-    }
+  .container {
+    padding: 10px;
+  }
 
-    section {
-        padding: 20px 0;
-    }
+  section {
+    padding: 20px 0;
+  }
 
-    .banner {
-        padding: 50px 0;
-    }
+  .banner {
+    padding: 50px 0;
+  }
 
-    .user-info h1 {
-        font-size: 28px;
-    }
+  .user-info h1 {
+    font-size: 28px;
+  }
 
-    .social-icon {
-        font-size: 20px;
-    }
+  .social-icon {
+    font-size: 20px;
+  }
 }
 
 /* CSS untuk top menu */
 .top-menu {
-    position: fixed; /* Membuat menu tetap di bagian atas */
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #333;
-    text-align: center;
-    padding: 15px 0; /* Mengurangi padding atas dan bawah */
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    z-index: 1000; /* Menentukan urutan tampilan */
+  position: fixed; /* Membuat menu tetap di bagian atas */
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  text-align: center;
+  padding: 15px 0; /* Mengurangi padding atas dan bawah */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Menentukan urutan tampilan */
 }
 
 .top-menu ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .top-menu li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 
 .top-menu a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 14px; /* Mengurangi ukuran font */
-    transition: color 0.3s;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px; /* Mengurangi ukuran font */
+  transition: color 0.3s;
 }
 
 .top-menu a i {
-    margin-right: 5px;
-    font-size: 18px; /* Mengubah ukuran ikon */
+  margin-right: 5px;
+  font-size: 18px; /* Mengubah ukuran ikon */
 }
 
 .top-menu a:hover {
-    color: #ff6b6b;
+  color: #ff6b6b;
 }
 /* CSS untuk footer */
 .site-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 30px 0;
-    text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  text-align: center;
 }
 
 .site-footer .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .site-footer .footer-logo img {
-    max-width: 100px;
+  max-width: 100px;
 }
 
 .site-footer .footer-social ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
+  list-style: none;
+  padding: 0;
+  display: flex;
 }
 
 .site-footer .footer-social li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .site-footer .footer-social a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 24px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
 }
 
 .site-footer .footer-social i {
-    vertical-align: middle;
+  vertical-align: middle;
 }

@@ -101,3 +101,56 @@ function eraseText() {
 
 // Mulai efek mengetik
 typeText();
+
+document.addEventListener("DOMContentLoaded", function () {
+  const downloadButton = document.getElementById("download-button");
+
+  downloadButton.addEventListener("click", function (event) {
+    event.preventDefault(); // Menghentikan tindakan bawaan dari tautan
+
+    Swal.fire({
+      title: "Download Resume",
+      text: "Apakah Anda ingin mengunduh resume?",
+      icon: "question",
+      showCancelButton: true,
+      confirmButtonText: "Ya, Unduh",
+      cancelButtonText: "Batal",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        // Menginisialisasi tautan ke file PDF
+        const pdfLink = "assets/resume/Resume-Firmansyah-Mukti-Wijaya.pdf";
+
+        // Membuat tautan yang akan memicu unduhan
+        const a = document.createElement("a");
+        a.href = pdfLink;
+        a.download = "Resume-Firmansyah-Mukti-Wijaya.pdf";
+
+        // Mengklik tautan untuk memicu unduhan
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+
+        Swal.fire("Unduh dimulai!", "Resume Anda sedang diunduh.", "success");
+      }
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.querySelector("form");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault(); // Menghentikan pengiriman formulir secara default
+
+    // Simulasikan pengiriman formulir (Anda bisa menambahkan logika pengiriman ke server di sini jika diperlukan)
+    // Untuk contoh ini, kami hanya menampilkan SweetAlert setelah submit
+    Swal.fire({
+      title: "Pesan Terkirim",
+      text: "Terima kasih! Pesan Anda telah terkirim.",
+      icon: "success",
+    });
+
+    // Bersihkan isian formulir setelah pengiriman (opsional)
+    form.reset();
+  });
+});
